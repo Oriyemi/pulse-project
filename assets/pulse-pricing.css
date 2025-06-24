@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+   
+}
+main{
+    background-color: rgb(216, 253, 224);
+     
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+   
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-links li{
+   list-style-type: none;
+   padding: 20px;
+   color: green;
+   font-size: 20px;
+   font-weight: 700;
+}
+.nav-links li:hover{
+    color: black;
+}
+.btn-links{
+    display: flex;
+    position: relative;
+    
+}
+.btn-links :first-child{
+    background-color: rgb(216, 253, 224);
+    /* top: -10px; */
+    position: absolute;
+    /* width: 100%; */
+}
+.btn-links :first-child:hover{
+    background-color: rgb(216, 253, 224);
+    transform: translate(5px, -5px
+    );
+    transition: transform 100ms ease-in-out;
+}
+.btn-1{
+    border: 2px solid green;
+    width: 90px;
+    padding: 5px;
+    height: 35px;
+   
+}
+.btn-2{
+    border: 2px solid green;
+    width: 90px;
+    padding: 5px;
+     height: 35px;
+    background-color: green;
+}
