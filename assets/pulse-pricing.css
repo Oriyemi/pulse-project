@@ -190,13 +190,49 @@ main{
     font-weight: 520;
 
 }
-.logo{
-    display: block;
+.img{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+.para{
+    text-align: center;
+}
+.para p{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(47, 255, 71);
+}
+.logo{
+   padding: 50px;
+}
+.faq{
+    padding: 60px;
+}
+.faq h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
 
-
+.faq-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* width: 70%; */
+}
+.faq-page h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.faq-page p{
+    line-height: 1.6;
+    font-size: 18px;
+}
 /* .basics{
     padding: 80px;
     font-size: 16px;
